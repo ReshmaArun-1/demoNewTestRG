@@ -14,7 +14,7 @@ public class CartPage extends BaseTest {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		}
-	
+	//adding latest changes for testing 
 	@FindBy(css = "#user-name")
 	public WebElement input_UserName;
 	
